@@ -28,7 +28,7 @@ This data was sourced from Kaggle : https://www.kaggle.com/datasets/shivan118/bi
 
 **2. Customer Analysis**
 
-1.Exclusive discounts given to top customers on their next purchase, the percentage of discount given is based on their total purchase amount in 2022 and 2023, the higher the total purchase amount, the higher the discount. This was achieved using XLOOKUP.  
+1. Exclusive discounts given to top customers on their next purchase, the percentage of discount given is based on their total purchase amount in 2022 and 2023, the higher the total purchase amount, the higher the discount. This was achieved using XLOOKUP.  
 
 2.Identifying one time customers and their purchase date.
 
