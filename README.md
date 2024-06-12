@@ -9,26 +9,28 @@ Microsoft Excel (Xlookup, Pivot tables and Charts)
 
 ## Data Sources
 
-This data was sourced from Kaggle
+This data was sourced from Kaggle : https://www.kaggle.com/datasets/shivan118/big-mart-sales-prediction-datasets
 
 ## Data Cleaning
 
-A new column, 'total amount' was included, derived from the product of the columns 'unit price' and 'quantity'
-All rows with the country 'EIRE' were replaced with 'Ireland' for better understanding.
-The column headers and columns were formatted for better allignment and presentation
-The' invoice date' column which included a date and time was formatted to include date only as the time was not needed for this purpose.
+1. A new column, 'total amount' was included, derived from the product of the columns 'unit price' and 'quantity'.
+2. All rows with the country 'EIRE' were replaced with 'Ireland' for better understanding.
+3. The column headers and columns were formatted for better allignment and presentation.
+4. The' invoice date' column which included a date and time was formatted to include date only as the time was not needed for this purpose.
 
 ## Data Analysis
 
 **1. Sales Analysis**
 
-Total sales per Country and a Pareto analysis to establish the countries accounting for about 90% of total sales.
-Sales trend overtime.
+1. Total sales per Country and a Pareto analysis to establish the countries accounting for about 90% of total sales.
+   
+2. Sales trend overtime.
 
 **2. Customer Analysis**
 
-Exclusive discounts given to top customers on their next purchase, the percentage of discount given is based on their total purchase amount in 2022 and 2023, the higher the total purchase amount, the higher the discount. This was achieved using XLOOKUP.
-Identifying one time customers and their purchase date.
+1.Exclusive discounts given to top customers on their next purchase, the percentage of discount given is based on their total purchase amount in 2022 and 2023, the higher the total purchase amount, the higher the discount. This was achieved using XLOOKUP.  
+
+2.Identifying one time customers and their purchase date.
 
 ## Results
 
