@@ -10,7 +10,7 @@ Link to Microsoft Excel files: [Sales Analysis](https://view.officeapps.live.com
 
 ## Data Sources
 
-This data was sourced from Kaggle : https://www.kaggle.com/datasets/shivan118/big-mart-sales-prediction-datasets
+This data was sourced from [Kaggle](https://www.kaggle.com/datasets/shivan118/big-mart-sales-prediction-datasets)
 
 ## Data Cleaning
 
@@ -23,26 +23,34 @@ This data was sourced from Kaggle : https://www.kaggle.com/datasets/shivan118/bi
 
 **1. Sales Analysis**
 
-1. Total sales per Country and a Pareto analysis to establish the countries accounting for about 90% of total sales.
+a. Total sales per Country and a Pareto analysis to establish the countries accounting for about 90% of total sales.
    
-2. Sales trend overtime.
+b. Sales trend overtime.
 
 **2. Customer Analysis**
 
-1. Exclusive discounts given to top customers on their next purchase, the percentage of discount given is based on their total purchase amount in 2022 and 2023, the higher the total purchase amount, the higher the discount. This was achieved using Pivot table and XLOOKUP.
+**a. Exclusive discounts** given to top customers on their next purchase, the percentage of discount given is based on their total purchase amount in 2022 and 2023, the higher the total purchase amount, the higher the discount. This was achieved using Pivot table and XLOOKUP.
 
 **Steps taken to achieve this include:**    
 
--A pivot table created to list customers with their total purchase amounts, a third column  
+-A pivot table created to list top customers (customers with total purchase amount of at least £5000) with their total purchase amounts.  
 
 -A discount table created beside the pivot table, on the same sheet, containing a list of discount percentages and the corresponding minimum purchase amounts.  
 
 -A third column '% discount on next purchase'is added to the pivot table and XLOOKUP is used to search for the appropriate discount based on the customer's total purchase amount.  
 
--The XLOOKUP formula is then copied down to populate the '% discount on next purchase' column on the pivot table.
+-The XLOOKUP formula is then copied down to populate the '% discount on next purchase' column on the pivot table.  
+
+-The 'blank' row indicates all customers that do not have customer ID, this could be as result of checking out as guests.
 
 
-2.Identifying one time customers and their purchase date.
+**b.Identifying one time customers and their purchase date.**  
+
+**Steps taken to achieve this include:**  
+
+-A pivot table is created with 'customerID' and 'Invoice Date' as rows, then 'Number of Purchases' is dragged to Values.  
+
+-Value filter is set to 'number of purchases equals 1' to filter customers that have made just one purchase.
 
 ## Results
 
