@@ -1,4 +1,4 @@
-# Online-Retail-Store-Sales-Analysis
+# Online-Retail-Store-Sales-and-Customer-Analysis
 The primary objective of this project is to analyze sales and customer behaviour of an online retail store to provide insights that will enable the management team make informed business decisions and enhance marketing strategies.
 
 The data set is a sales transaction data set for a UK-based e-commerce store selling gifts and homewares, covering 2 years (2022 and 2023). Their customers come from the United Kingdom and other Countries.
@@ -6,7 +6,7 @@ The data set is a sales transaction data set for a UK-based e-commerce store sel
 ## Tools
 
 Microsoft Excel (Xlookup, Pivot tables and Charts)  
-Link to Microsoft Excel files: [Sales Analysis](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FChinwesarah%2FOnline-Retail-Store-Sales-Analysis%2Fmain%2FOnline%2520retail%2520store_customer%2520analysis.xlsb&wdOrigin=BROWSELINK) and [Customer Analysis](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FChinwesarah%2FOnline-Retail-Store-Sales-Analysis%2Fmain%2FOnline%2520retail%2520store_customer%2520analysis.xlsb&wdOrigin=BROWSELINK)
+Link to Microsoft Excel files: [Sales Analysis](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FChinwesarah%2FOnline-Retail-Store-Sales-Analysis%2Fmain%2FOnline%2520retail%2520store_sales%2520analysis.xlsb&wdOrigin=BROWSELINK) and [Customer Analysis](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FChinwesarah%2FOnline-Retail-Store-Sales-Analysis%2Fmain%2FOnline%2520retail%2520store_customer%2520analysis.xlsb&wdOrigin=BROWSELINK)
 
 ## Data Sources
 
