@@ -6,6 +6,7 @@ The data set is a sales transaction data set for a UK-based e-commerce store sel
 ## Tools
 
 Microsoft Excel (Xlookup, Pivot tables and Charts)
+Link to Microsoft Excel: 
 
 ## Data Sources
 
