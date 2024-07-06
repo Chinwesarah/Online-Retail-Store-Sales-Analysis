@@ -23,9 +23,27 @@ This data was sourced from [Kaggle](https://www.kaggle.com/datasets/shivan118/bi
 
 **1. Sales Analysis**
 
-a. Total sales per Country and a Pareto analysis to establish the countries accounting for about 90% of total sales.
+**a. Total sales per Country and a Pareto analysis** to establish the countries accounting for about 90% of total sales.  
+
+**Steps taken to achieve this include:**  
+
+-A pivot table is created with the Invoice date in years as columns and Country as row, the sum of Total amount is dragged to Values.  
+
+-A new column called 'Cummulative %' is added to the pivot table and this is populated by a formula that calculates the running total of percentages and shows the progressive total as you move down the list. This will help us understand how each counry contributes incrementally to the total sum.  
+
+-A second table is extracted from the pivot table showing the countries that make up a cummulative percentage of 90%.  
+
+-This extracted table is then used for the Pareto chart.
+
    
-b. Sales trend overtime.
+**b. Sales trend overtime.**  
+
+**Steps taken to achieve this include:**   
+
+-A pivot table is created with the Invoice date as years and months dragged to Rows, Total amount is dragged to Values and changed to Total Sales (GBP).  
+
+-A line chart to show the sales trend over time is created with the pivot table. The chart has  Year (segmented in months) as the x-axis and total sales as the Y-axis.
+
 
 **2. Customer Analysis**
 
@@ -54,7 +72,7 @@ b. Sales trend overtime.
 
 ## Results
 
-1. The Pareto Analysis established that most customers are from the United Kingdom, followed by Netherlands and Ireland, these countries make up for 90% percent of total sales.  
+1. The Pareto Analysis established that most customers are from the United Kingdom, followed by Netherlands and Ireland. These countires together account for 100% of the sales that make up the top 90% of the total sales. The United Kingdom alone accounts for the vast majority (94%). 
 
 2. The sales trend overall shows that sales seem relatively stable, it fluctuates a little but does not show long-term upward or downward trend. There are occasional sharp increases or decreases, this might be indicative of some specific events like promotions and discount offer.
    
